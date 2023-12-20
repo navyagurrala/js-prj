@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="">
+    <script>
+
+        let a=localStorage.getItem("seemore")
+        let b=JSON.parse(a)
+        let img=document.getElementsByTagName("img")
+        img[0].setAttribute("src",b.image)
+        img[0].style.width="200px"
+        
+
+
+    </script>
+</body>
+</html>
